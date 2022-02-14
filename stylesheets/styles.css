@@ -1,0 +1,77 @@
+:root {
+    --title-color: #ddb737;
+    --subtitle-color: #2f2a1c;
+    --lower-navbar-color: #506536;
+    --lower-navbar-link-color: #fd90fd;
+}
+
+/* Block for the title and subtitle */
+.titles {
+    margin: auto;
+    font-family: "Cinzel Decorative";
+}
+
+/* Title (life arts */
+.title {
+    text-shadow: 1px 3px 1px #2f2a1c;
+    font-size: 40pt;
+    color: var(--title-color);
+    margin: 1px;
+}
+
+/* Subtitle (arts of begin you) */
+.subtitle {
+    text-align: center;
+    color: var(--subtitle-color);
+    margin: 1px;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Block for the complete header, navbars + titles */
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../resources/IMG_3569.JPG);
+    background-size: cover;
+    background-position: 0 40%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+/* Navbar beneath the header */
+.navbar {
+    display: flex;
+    background-color: var(--lower-navbar-color);
+}
+
+/* links in the lower navbar */
+.nav-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-links > li > a {
+    text-decoration: none;
+    color: var(--lower-navbar-link-color);
+}
+
+.nav-links > li >a:hover {
+    color: red;
+}
+
+.upper-navbar {
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 1px;
+}
+
+.upper {
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.upper > li > a {
+    color: #FFF;
+    text-decoration: underline;
+}
