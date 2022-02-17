@@ -24,7 +24,7 @@
     text-align: center;
     color: var(--subtitle-color);
     margin: 1px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px #2f2a1c;
 }
 
 /* Block for the complete header, navbars + titles */
